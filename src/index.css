@@ -75,7 +75,8 @@ p {
   line-height: 1.75;
 }
 
-a:hover {
+/* change color on hover for links */
+.hoverColor:hover {
   color:  var(--hoverText);
 }
 
@@ -150,7 +151,26 @@ nav {
   text-align: left;
 }
 
-/* Buffer */
+/* Footer Styles */
+.footer-container {
+  background-color: var(--secondaryColor);
+  position: relative;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.footer-link:hover {
+  font-size: 1.1rem;
+  line-height: 1rem;
+  transition: font-size .3s;
+}
+
+.copyright {
+  font-size: .8em;
+  padding: 20px;
+}
+
+/* Blank */
 
 .passions-container {
   background-color: var(--mainColor);
@@ -267,18 +287,6 @@ nav {
   text-align: center;
 }
 
-.bottom-container {
-  background-color: var(--secondaryColor);
-  position: relative;
-}
-
-.footer-link:hover {
-  font-size: 1.1rem;
-  line-height: 1rem;
-  transition: font-size .3s;
-}
-
-
 /* Passions Section */
 .coding-gif {
   border-radius: 20%;
@@ -313,11 +321,6 @@ nav {
   max-width: 200px;
   height: auto;
   margin-top: 35px;
-}
-
-.copyright {
-  font-size: .8em;
-  padding: 20px;
 }
 
 .button-contact-me {

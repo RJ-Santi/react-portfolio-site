@@ -10,11 +10,11 @@ function Header() {
       <Navbar expand="lg" sticky='top' className='navbar'>
         <Container fluid>
         <RyanLogo />
-          <Navbar.Brand href="/home" className='text-light'>Ryan's Portfolio</Navbar.Brand>
+          <Navbar.Brand href="/" className='text-light'>Ryan's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link id='navTitle' href="/home" className='text-light nav-link'>Home</Nav.Link>
+              <Nav.Link id='navTitle' href="/" className='text-light nav-link'>Home</Nav.Link>
               <Nav.Link id='navTitle' href="/about" className='text-light nav-link'>About</Nav.Link>
               <Nav.Link id='navTitle' href="/projects" className='text-light nav-link'>Projects</Nav.Link>
             </Nav>
