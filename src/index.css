@@ -131,6 +131,8 @@ nav {
 .about-section {
   background-color: var(--tertiaryColor);
   padding: 5%;
+  display: flex;
+  align-items: center;
 }
 
 .profile-picture {
@@ -139,6 +141,7 @@ nav {
   border-radius: 20%;
   margin-right: 10%;
   float: left;
+  vertical-align: middle;
 }
 
 .helloTitle {
@@ -149,6 +152,45 @@ nav {
   margin: 40px auto;
   width: 50%;
   text-align: left;
+}
+
+/* About Section Styles */
+.passions-container {
+  background-color: var(--tertiaryColor);
+}
+
+.build {
+  padding-top: 25px;
+}
+
+.coding-gif {
+  border-radius: 20%;
+  float: left;
+  margin-right: 25px;
+  width: 25%;
+}
+
+.pc {
+  float: right;
+  margin-left: 25px;
+  width: 25%;
+}
+
+.passion-row {
+  margin: 50px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.bootstrap-logo {
+  max-width: 200px;
+  height: auto;
+  margin-top: 35px;
 }
 
 /* Footer Styles */
@@ -172,12 +214,8 @@ nav {
 
 /* Blank */
 
-.passions-container {
-  background-color: var(--mainColor);
-}
-
 .skills-container {
-    background-color: var(--tertiaryColor);
+    background-color: var(--mainColor);
 }
 
 .project-container {
@@ -285,42 +323,6 @@ nav {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-/* Passions Section */
-.coding-gif {
-  border-radius: 20%;
-  float: left;
-  margin-right: 25px;
-  width: 25%;
-}
-
-.build {
-  padding-top: 25px;
-}
-
-.pc {
-  float: right;
-  margin-left: 25px;
-  width: 25%;
-}
-
-.passion-row {
-  margin: 50px auto 100px auto;
-  text-align: left;
-  width: 50%;
-}
-
-/* Skills Logos */
-.logo {
-  max-width: 200px;
-  height: auto;
-}
-
-.bootstrap-logo {
-  max-width: 200px;
-  height: auto;
-  margin-top: 35px;
 }
 
 .button-contact-me {

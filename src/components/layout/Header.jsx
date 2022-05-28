@@ -17,6 +17,7 @@ function Header() {
               <Nav.Link id='navTitle' href="/" className='text-light nav-link'>Home</Nav.Link>
               <Nav.Link id='navTitle' href="/about" className='text-light nav-link'>About</Nav.Link>
               <Nav.Link id='navTitle' href="/projects" className='text-light nav-link'>Projects</Nav.Link>
+              <Nav.Link id='navTitle' href="/contact" className='text-light nav-link'>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
