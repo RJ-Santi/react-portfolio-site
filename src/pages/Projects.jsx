@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div name='projects' className='project-container'>
       <h2 className='text-center pt-5'>Projects.</h2>
-      <p className='text-center p-3 project-description'>Below are a few projects in my portfolio that showcase a variety of my different development skills. You can see more projects like these by visiting my Github page at the link in the footer!</p>
+      <p className='text-center p-4 mx-auto w-50 project-description'>Below are a few projects in my portfolio that showcase a variety of my different development skills. You can see more projects like these by visiting my Github page at the link in the footer!</p>
 
       <Carousel>
         <Carousel.Item>

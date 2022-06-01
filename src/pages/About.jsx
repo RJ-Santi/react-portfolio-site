@@ -21,7 +21,7 @@ function About() {
       </div>
 
       <div className="skills-container py-5">
-        <h2 className='text-center pb-5'>Skills.</h2>
+        <h2 className='text-center pb-4'>Skills.</h2>
 
         <div className="skills row d-flex justify-content-center">
           <div className="col-md-3">

@@ -218,7 +218,7 @@ nav {
 
 /* Project Section Styles */
 .project-container {
-  background-color: var(--mainColor);
+  background-color: var(--tertiaryColor);
 }
 
 .project-description {
@@ -230,10 +230,6 @@ nav {
 
 .carousel {
   background-color: var(--mainColor);
-}
-
-.contact-me {
-  background-color: var(--tertiaryColor);
 }
 
 .overlay {
@@ -274,12 +270,12 @@ nav {
 }
 
 /* Contact Section Styles */
-.contact-form-div {
-  display: none;
-  color: var(--mainText);
+.contact-me {
+  background-color: var(--tertiaryColor);
 }
 
 #contact-form {
+  color: var(--mainText);
   display: block;
   max-width: 600px;
   margin: 0 auto;
@@ -330,48 +326,4 @@ nav {
   -webkit-box-shadow: 0 1px 14px 0 #000000;
   -moz-box-shadow: 0 1px 14px 0 #000000;
   box-shadow: 0 1px 14px 0 #000000;
-}
-
-.button-contact-me {
-   background: var(--secondaryBorder);
-   background-image: -webkit-linear-gradient(top, var(--secondaryBorder), var(--mainText));
-   background-image: -moz-linear-gradient(top, var(--secondaryBorder), var(--mainText));
-   background-image: -ms-linear-gradient(top, var(--secondaryBorder), var(--mainText));
-   background-image: -o-linear-gradient(top, var(--secondaryBorder)C, var(--mainText));
-   background-image: -webkit-gradient(to bottom, var(--secondaryBorder), var(--mainText));
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 1.25rem;
-   font-weight: 800;
-   margin: 20px auto 25px auto;
-   padding: 20px;
-   -webkit-box-shadow: 0 1px 9px 0 #000000;
-   -moz-box-shadow: 0 1px 9px 0 #000000;
-   box-shadow: 0 1px 9px 0 #000000;
-   text-shadow: 0 1px 0 #000000;
-   border: solid var(--mainBorder) 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.button-contact-me:hover{
-   border: solid var(--mainBorder) 1px;
-   background: var(--mainText);
-   background-image: -webkit-linear-gradient(top, var(--mainText), var(--secondaryBorder));
-   background-image: -moz-linear-gradient(top, var(--mainText), var(--secondaryBorder));
-   background-image: -ms-linear-gradient(top, var(--mainText), var(--secondaryBorder));
-   background-image: -o-linear-gradient(top, var(--mainText), var(--secondaryBorder));
-   background-image: -webkit-gradient(to bottom, var(--mainText), var(--secondaryBorder));
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
-   -webkit-box-shadow: 0 1px 14px 0 #000000;
-   -moz-box-shadow: 0 1px 14px 0 #000000;
-   box-shadow: 0 1px 14px 0 #000000;
 }
