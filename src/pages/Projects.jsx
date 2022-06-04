@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import Carousel from 'react-bootstrap/Carousel'
 
 function Projects() {
@@ -9,11 +8,11 @@ function Projects() {
 
       <Carousel>
         <Carousel.Item>
-          <a href="https://rj-santi.github.io/ToDoList/" className="stretched-link" target="_blank">
+          <a href="https://rj-santi.github.io/ToDoList/" className="stretched-link" target="_blank" rel='noreferrer' >
             <img
               className="d-block w-100"
               src="images/tododark.jpg"
-              alt="Image of the home page for to-do list application."
+              alt="Home page for to-do list application."
             />
             <div className="overlay">
               <div className="overlay-text">Click to View <br /> To-Do List Project</div>
@@ -27,7 +26,7 @@ function Projects() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href="https://rj-santi.github.io/weather-app/" className="stretched-link" target="_blank">
+          <a href="https://rj-santi.github.io/weather-app/" className="stretched-link" target="_blank" rel='noreferrer'>
             <img
               className="d-block w-100"
               src="images/weatherdark.jpg"
@@ -45,11 +44,11 @@ function Projects() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href="https://github-finder-tan-beta.vercel.app/" className="stretched-link" target="_blank">
+          <a href="https://github-finder-tan-beta.vercel.app/" className="stretched-link" target="_blank" rel='noreferrer'>
             <img
               className="d-block w-100"
               src="images/ghfinder.png"
-              alt="Image of home screen for the github finder application."
+              alt="Home screen for the github finder application."
             />
             <div className="overlay">
               <div className="overlay-text">Click to View <br />Github Finder Project</div>
@@ -63,11 +62,11 @@ function Projects() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href="https://sparkling-dragon-559a73.netlify.app/" className="stretched-link" target="_blank">
+          <a href="https://sparkling-dragon-559a73.netlify.app/" className="stretched-link" target="_blank" rel='noreferrer'>
             <img
               className="d-block w-100"
               src="images/feedback-ui.png"
-              alt="Image of home screen for feedback application."
+              alt="Home screen for feedback application."
             />
             <div className="overlay">
               <div className="overlay-text">Click to View <br />Feedback UI Project</div>
