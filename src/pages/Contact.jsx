@@ -10,7 +10,12 @@ function Contact() {
     e.preventDefault()
 
     emailjs
-      .sendForm('EMAIL_KEY', 'TEMPLATE_KEY', form.current, 'PUBLIC_KEY')
+      .sendForm(
+        'REACT_APP_EMAIL_KEY',
+        'REACT_APP_TEMPLATE_KEY',
+        form.current,
+        'REACT_APP_PUBLIC_KEY'
+      )
       .then(
         (result) => {
           console.log(result.text)

@@ -8,6 +8,7 @@ function Footer() {
           className='footer-link hoverColor'
           href='https://www.linkedin.com/in/ryan-santiago/'
           target='_blank'
+          rel='noopener'
         >
           LinkedIn
         </a>
@@ -15,6 +16,7 @@ function Footer() {
           className='footer-link hoverColor'
           href='http://www.ryansantiago.me'
           target='_blank'
+          rel='noopener'
         >
           Website
         </a>
@@ -22,6 +24,7 @@ function Footer() {
           className='footer-link hoverColor'
           href='https://github.com/RJ-Santi?tab=repositories'
           target='_blank'
+          rel='noopener'
         >
           Github
         </a>
