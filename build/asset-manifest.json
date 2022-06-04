@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6319d559.css",
+    "main.js": "/static/js/main.a0065116.js",
+    "static/js/787.ce9a24bf.chunk.js": "/static/js/787.ce9a24bf.chunk.js",
+    "static/media/fuji.jpg": "/static/media/fuji.7b1698dc082cd9fcb23c.jpg",
+    "static/media/ryan-logo.svg": "/static/media/ryan-logo.b8d8e841989a0c1258eb01dbadd82dd7.svg",
+    "index.html": "/index.html",
+    "main.6319d559.css.map": "/static/css/main.6319d559.css.map",
+    "main.a0065116.js.map": "/static/js/main.a0065116.js.map",
+    "787.ce9a24bf.chunk.js.map": "/static/js/787.ce9a24bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6319d559.css",
+    "static/js/main.a0065116.js"
+  ]
+}
