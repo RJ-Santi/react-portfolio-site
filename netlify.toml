@@ -1,6 +1,0 @@
-
-
-[context.production.environment]
-EMAIL_KEY = "From netlify.toml (REACT_APP_)"
-TEMPLATE_KEY = "From netlify.toml (REACT_APP_)"
-PUBLIC_KEY = "From netlify.toml (REACT_APP_)"
