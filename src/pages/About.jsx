@@ -20,10 +20,10 @@ function About() {
         </div>
       </div>
 
-      <div className="skills-container py-5">
+      <div className="skills-container py-5 text-center">
         <h2 className='text-center pb-4'>Skills.</h2>
 
-        <div className="skills row d-flex justify-content-center">
+        <div className="skills row">
           <div className="col-md-3">
             <img className="logo" src="images/html.png" alt="HTML logo." />
           </div>

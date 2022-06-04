@@ -1,7 +1,10 @@
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function Contact() {
+
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -10,13 +13,18 @@ function Contact() {
     emailjs.sendForm('service_1il4qgm', 'template_0pp66on', form.current, 'P2F4byEv7ghzE8BUK')
     .then((result) => {
         console.log(result.text)
+        toast.success('Success!! Ryan will get in touch with you as soon as possible.', { position: "top-center",})
     }, (error) => {
         console.log(error.text)
+        toast.error('There seems to have been an error submitting the form. Please try again.', {position: "top-center",})
     })
+
+    e.target.reset()
   }
 
+
   return (
-    <div>
+    <>
       <div id="contact" className="contact-me p-5 row">
         <div className="col-md-6 text-center align-self-center">
           <h2>Get In Touch.</h2>
@@ -40,13 +48,15 @@ function Contact() {
             <label>Message</label>
             <textarea className="form-control" id="message" name="message" required />
 
+            <ToastContainer />
+
             <div className="d-grid mx-auto mt-2">
               <input id="submit-btn" className="btn" type="submit" value="Send" />
             </div>
           </form>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

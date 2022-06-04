@@ -135,6 +135,7 @@ nav {
 
 .homeBackground {
   background-image: url(/public/images/fuji.jpg);
+  background-position: center;
   background-size: cover;
   height: 100vh;
   filter: brightness(60%);
