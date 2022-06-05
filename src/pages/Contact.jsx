@@ -43,7 +43,7 @@ function Contact() {
           <h2>Get In Touch.</h2>
           <h3>If you love tech as much as I do.</h3>
           <p className='mx-auto mt-5 w-50'>
-            Love tech like me? Lets have a chat and share more about our
+            Love tech like me? Let's have a chat and share more about our
             passion.
           </p>
           <p className='mx-auto w-50'>
