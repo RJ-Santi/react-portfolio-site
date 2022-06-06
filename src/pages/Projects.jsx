@@ -134,6 +134,38 @@ function Projects() {
             </div>
           </a>
         </Carousel.Item>
+
+        <Carousel.Item>
+          <a
+            href='https://secure-garden-44553.herokuapp.com/'
+            className='stretched-link'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img
+              className='d-block w-100'
+              src='images/ryan-portfolio.png'
+              alt='Previous portfolio site'
+            />
+            <div className='overlay'>
+              <div className='overlay-text'>
+                Click to View <br /> Vanilla JS Portfolio
+              </div>
+              <Carousel.Caption>
+                <h3>Vanilla JS Portfolio</h3>
+                <p>
+                  This is my previous portfolio using Vanilla JS as opposed to
+                  the current portfolio which uses React. I have also made
+                  various improvements upon the original site such as improved
+                  formatting and styling, as well as increased efficiency.
+                </p>
+                <small className='text-muted'>
+                  Built with: HTML, CSS, Bootstrap, JS
+                </small>
+              </Carousel.Caption>
+            </div>
+          </a>
+        </Carousel.Item>
       </Carousel>
     </div>
   )
