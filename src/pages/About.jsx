@@ -29,8 +29,8 @@ function About() {
             <p>
               I picked up a passion for PC building through my love for gaming.
               I built my first PC in 2019 and proceeded to build my second PC as
-              a pandemic project. Since building my own PCs, I have gone on to
-              build 3 more for close friends and a home-server for my parents.
+              a pandemic project. Since building my personal computers, I have
+              gone on to build 5 more for clients as well as a home-server.
             </p>
           </div>
         </div>
