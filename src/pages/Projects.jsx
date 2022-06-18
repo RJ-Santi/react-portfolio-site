@@ -24,9 +24,7 @@ function Projects() {
               alt='Home page for to-do list application.'
             />
             <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br /> To-Do List Project
-              </div>
+              <div className='overlay-text'>Click to View</div>
               <Carousel.Caption>
                 <h3>To-Do List Project</h3>
                 <p>
@@ -54,9 +52,7 @@ function Projects() {
               alt='Second slide'
             />
             <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br /> Weather Project
-              </div>
+              <div className='overlay-text'>Click to View</div>
               <Carousel.Caption>
                 <h3>Weather Project</h3>
                 <p>
@@ -85,10 +81,7 @@ function Projects() {
               alt='Home screen for the github finder application.'
             />
             <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br />
-                Github Finder Project
-              </div>
+              <div className='overlay-text'>Click to View</div>
               <Carousel.Caption>
                 <h3>Github User Finder Project</h3>
                 <p>
@@ -117,10 +110,7 @@ function Projects() {
               alt='Home screen for feedback application.'
             />
             <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br />
-                Feedback UI Project
-              </div>
+              <div className='overlay-text'>Click to View</div>
               <Carousel.Caption>
                 <h3>Feedback Application</h3>
                 <p>
@@ -148,9 +138,7 @@ function Projects() {
               alt='Previous portfolio site'
             />
             <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br /> Vanilla JS Portfolio
-              </div>
+              <div className='overlay-text'>Click to View</div>
               <Carousel.Caption>
                 <h3>Vanilla JS Portfolio</h3>
                 <p>
