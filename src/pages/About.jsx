@@ -1,6 +1,7 @@
 function About() {
   return (
     <>
+      {/* Section for passions descriptions */}
       <div className='passions-container py-5'>
         <div className='passions'>
           <h2 className='text-center'>Passions.</h2>
@@ -36,6 +37,7 @@ function About() {
         </div>
       </div>
 
+      {/* Sections for skills/languages logos */}
       <div className='skills-container py-5 text-center'>
         <h2 className='text-center pb-4'>Skills.</h2>
 

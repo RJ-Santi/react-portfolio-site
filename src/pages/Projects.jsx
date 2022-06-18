@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 function Projects() {
   return (
+    // Projects introduction description
     <div name='projects' className='project-container'>
       <h2 className='text-center pt-5'>Projects.</h2>
       <p className='text-center p-4 mx-auto w-50 project-description'>
@@ -10,6 +11,7 @@ function Projects() {
         visiting my Github page at the link in the footer!
       </p>
 
+      {/* Projects carousel with react bootstrap formatting - can be referenced here https://react-bootstrap.github.io/components/carousel/ */}
       <Carousel>
         <Carousel.Item>
           <a
