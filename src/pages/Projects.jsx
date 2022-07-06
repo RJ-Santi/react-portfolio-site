@@ -13,6 +13,39 @@ function Projects() {
 
       {/* Projects carousel with react bootstrap formatting - can be referenced here https://react-bootstrap.github.io/components/carousel/ */}
       <Carousel>
+        {/* House marketplace carousel */}
+        <Carousel.Item>
+          <a
+            href='https://house-marketplace-iota-two.vercel.app/'
+            className='stretched-link'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img
+              className='d-block w-100'
+              src='images/real-estate.png'
+              alt='Home page for house marketplace application.'
+            />
+            <div className='overlay'>
+              <div className='overlay-text'>Click to View</div>
+              <Carousel.Caption>
+                <h3>Real Estate Application</h3>
+                <p>
+                  This is a mock real estate application that allows users to
+                  view, list, and edit their property. Utilizing firebase
+                  authentication and storage the application is able to display
+                  listings stored in the database and authenticate certain
+                  features for registered users.
+                </p>
+                <small className='text-muted'>
+                  Built with: HTML, CSS, JS/React
+                </small>
+              </Carousel.Caption>
+            </div>
+          </a>
+        </Carousel.Item>
+
+        {/* to-do list carousel */}
         <Carousel.Item>
           <a
             href='https://rj-santi.github.io/ToDoList/'
@@ -41,6 +74,7 @@ function Projects() {
           </a>
         </Carousel.Item>
 
+        {/* Weather application carousel */}
         <Carousel.Item>
           <a
             href='https://rj-santi.github.io/weather-app/'
@@ -70,6 +104,7 @@ function Projects() {
           </a>
         </Carousel.Item>
 
+        {/* Github Finder Carousel */}
         <Carousel.Item>
           <a
             href='https://github-finder-tan-beta.vercel.app/'
@@ -92,13 +127,14 @@ function Projects() {
                   links to the profile and repos.
                 </p>
                 <small className='text-muted'>
-                  Built with: HTML, CSS, Tailwind, DaisyUI, JS, React
+                  Built with: HTML, CSS, Tailwind, DaisyUI, JS/React
                 </small>
               </Carousel.Caption>
             </div>
           </a>
         </Carousel.Item>
 
+        {/* Feedback application carousel */}
         <Carousel.Item>
           <a
             href='https://sparkling-dragon-559a73.netlify.app/'
@@ -120,13 +156,14 @@ function Projects() {
                   an existing site.
                 </p>
                 <small className='text-muted'>
-                  Built with: HTML, CSS, Tailwind, JS, React
+                  Built with: HTML, CSS, Tailwind, JS/React
                 </small>
               </Carousel.Caption>
             </div>
           </a>
         </Carousel.Item>
 
+        {/* Original portfolio carousel */}
         <Carousel.Item>
           <a
             href='https://secure-garden-44553.herokuapp.com/'
