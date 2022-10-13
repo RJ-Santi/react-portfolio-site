@@ -59,9 +59,7 @@ function Projects() {
               alt='Home page for eCommerce list application.'
             />
             <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br /> eCommerce Project
-              </div>
+              <div className='overlay-text'>Click to View</div>
               <Carousel.Caption>
                 <h3>eCommerce Project</h3>
                 <p>

@@ -22,7 +22,7 @@ function Home() {
             />
           </div>
           <div className='col-md-6'>
-            <h2 className='helloTitle'>Hello.</h2>
+            <h2 className='helloTitle mt-4'>Hello.</h2>
             <p className='hello'>
               My name is Ryan Santiago. I am a college graduate from the
               University of Central Florida pursuing a career in web
