@@ -158,23 +158,33 @@ nav {
   align-items: center;
 }
 
+.img-center {
+  display: flex;
+  justify-content: center;
+}
+
 .profile-picture {
-  max-width: 15%;
-  height: auto;
+  max-height: 500px;
+  width: auto;
   border-radius: 20%;
-  margin-right: 10%;
-  float: left;
-  vertical-align: middle;
 }
 
 .helloTitle {
-  text-align: left;
+  text-align: center;
 }
 
 .hello {
   margin: 40px auto;
-  width: 50%;
+  width: 70%;
   text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .hello,
+  .passion-row,
+  .project-description {
+    width: 90% !important;
+  }
 }
 
 /* About Section Styles */
@@ -229,6 +239,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin: 10px 25px;
+  width: 70%;
   text-decoration: none;
 }
 

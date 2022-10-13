@@ -4,13 +4,43 @@ function Projects() {
   return (
     <div name='projects' className='project-container'>
       <h2 className='text-center pt-5'>Projects.</h2>
-      <p className='text-center p-4 mx-auto w-50 project-description'>
+      <p className='text-center p-4 mx-auto project-description'>
         Below are a few projects in my portfolio that showcase a variety of my
         different development skills. You can see more projects like these by
         visiting my Github page at the link in the footer!
       </p>
 
       <Carousel>
+        <Carousel.Item>
+          <a
+            href='https://ecommerce-nine-zeta.vercel.app/'
+            className='stretched-link'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img
+              className='d-block w-100'
+              src='images/ecommerce-home.png'
+              alt='Home page for eCommerce list application.'
+            />
+            <div className='overlay'>
+              <div className='overlay-text'>
+                Click to View <br /> eCommerce Project
+              </div>
+              <Carousel.Caption>
+                <h3>eCommerce Project</h3>
+                <p>
+                  Fully functional online store that uses the Sanity CMS to
+                  store data and Stripe for payment processing.
+                </p>
+                <small className='text-muted'>
+                  Built with: NextJS, CSS, Sanity, Stripe
+                </small>
+              </Carousel.Caption>
+            </div>
+          </a>
+        </Carousel.Item>
+
         <Carousel.Item>
           <a
             href='https://rj-santi.github.io/ToDoList/'
@@ -32,37 +62,6 @@ function Projects() {
                 <p>
                   This application allows you to add and remove items from a
                   list. It uses local storage to save your list for future uses.
-                </p>
-                <small className='text-muted'>
-                  Built with: HTML, CSS, Bootstrap, JS
-                </small>
-              </Carousel.Caption>
-            </div>
-          </a>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <a
-            href='https://rj-santi.github.io/weather-app/'
-            className='stretched-link'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <img
-              className='d-block w-100'
-              src='images/weatherdark.jpg'
-              alt='Second slide'
-            />
-            <div className='overlay'>
-              <div className='overlay-text'>
-                Click to View <br /> Weather Project
-              </div>
-              <Carousel.Caption>
-                <h3>Weather Project</h3>
-                <p>
-                  This application detects the user's location with Geolocation
-                  API and accesses the API from OpenWeatherMap.com in order to
-                  show the weather for the user's location.
                 </p>
                 <small className='text-muted'>
                   Built with: HTML, CSS, Bootstrap, JS
