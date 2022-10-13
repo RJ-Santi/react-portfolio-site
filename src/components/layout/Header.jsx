@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container'
 function Header() {
   return (
     <>
+      {/* Navbar created with imported react bootstrap navbar formatting - can be referenced here https://react-bootstrap.github.io/components/navbar/ */}
       <Navbar expand='lg' sticky='top' className='navbar'>
         <Container fluid>
           <RyanLogo />

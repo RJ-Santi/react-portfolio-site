@@ -4,18 +4,22 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 function Contact() {
+  // Point reference toward DOM element of form
   const form = useRef()
 
+  // Function to send email - can be referenced here https://www.emailjs.com/docs/examples/reactjs/
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
+      // Use keys and the current reference state of the form to send email
       .sendForm(
         'service_1il4qgm',
         'template_au2664h',
         form.current,
         'P2F4byEv7ghzE8BUK'
       )
+      // Notify the user of the end result
       .then(
         (result) => {
           console.log(result.text)
@@ -33,6 +37,7 @@ function Contact() {
         }
       )
 
+    // Reset the form so that user input doesn't remain after submission
     e.target.reset()
   }
 
@@ -52,6 +57,7 @@ function Contact() {
           </p>
         </div>
 
+        {/* User input section for email form */}
         <div className='col-md-6 py-5'>
           <form ref={form} onSubmit={sendEmail} id='contact-form'>
             <label>Name</label>

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 function Footer() {
   return (
     <>
+      {/* Footer with react bootstrap container formatting - can be referenced here https://react-bootstrap.github.io/layout/grid/ */}
       <Container fluid className='footer-container pt-5'>
         <a
           className='footer-link hoverColor'

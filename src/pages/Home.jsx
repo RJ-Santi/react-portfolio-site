@@ -1,6 +1,7 @@
 function Home() {
   return (
     <>
+      {/* Intro section with image background */}
       <div className='intro'>
         <div className='homeBackground'>
           <div className='greeting'>
@@ -10,6 +11,7 @@ function Home() {
         </div>
       </div>
 
+      {/* Description about myself */}
       <div className='about-section container-fluid'>
         <div id='about-me' className='about-me m-5 mx-auto row'>
           <div className='col-md-6 img-center'>
