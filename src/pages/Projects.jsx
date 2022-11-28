@@ -13,6 +13,37 @@ function Projects() {
 
       {/* Projects carousel with react bootstrap formatting - can be referenced here https://react-bootstrap.github.io/components/carousel/ */}
       <Carousel>
+        {/* Secure Storage Client Project */}
+        <Carousel.Item>
+          <a
+            href='https://www.securestorageinc.com/'
+            className='stretched-link'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img
+              className='d-block w-100'
+              src='images/secure-storage.png'
+              alt='Client project for Storage Facility.'
+            />
+            <div className='overlay'>
+              <div className='overlay-text'>Click to View</div>
+              <Carousel.Caption>
+                <h3>Secure Storage Website</h3>
+                <p>
+                  This site is built for a client who wanted a new website for
+                  their company. It is fully responsive and compliant with all
+                  browsers. It allows potential clients to get an idea of what
+                  the company offers and fluidly contact the business owner.
+                </p>
+                <small className='text-muted'>
+                  Built with: HTML, CSS, Bootstrap, JS/React, and MailJS
+                </small>
+              </Carousel.Caption>
+            </div>
+          </a>
+        </Carousel.Item>
+
         {/* House marketplace carousel */}
         <Carousel.Item>
           <a
@@ -102,6 +133,7 @@ function Projects() {
           </a>
         </Carousel.Item>
 
+        {/* Github User Finder Application */}
         <Carousel.Item>
           <a
             href='https://github-finder-tan-beta.vercel.app/'
