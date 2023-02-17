@@ -1,6 +1,8 @@
+import AnimatedPage from './AnimatedPage'
+
 function About() {
   return (
-    <>
+    <AnimatedPage>
       {/* Section for passions descriptions */}
       <div className='passions-container py-5'>
         <div className='passions'>
@@ -76,7 +78,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+    </AnimatedPage>
   )
 }
 
