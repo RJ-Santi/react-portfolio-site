@@ -1,15 +1,17 @@
+import AnimatedPage from './AnimatedPage'
+import { Parallax } from 'react-parallax'
+import Fuji from './images/fuji.jpg'
+
 function Home() {
   return (
-    <>
+    <AnimatedPage>
       {/* Intro section with image background */}
-      <div className='intro'>
-        <div className='homeBackground'>
-          <div className='greeting'>
-            <h1 className='mb-3'>I'm Ryan</h1>
-            <h2>Web Developer</h2>
-          </div>
+      <Parallax strength={-300} bgImage={Fuji}>
+        <div className='landing'>
+          <h1 className='name-title'>I'm Ryan</h1>
+          <h2 className='job-title'>Web Developer</h2>
         </div>
-      </div>
+      </Parallax>
 
       {/* Description about myself */}
       <div className='about-section container-fluid'>
@@ -40,7 +42,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </>
+    </AnimatedPage>
   )
 }
 
