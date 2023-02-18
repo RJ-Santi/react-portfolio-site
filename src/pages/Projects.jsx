@@ -1,20 +1,30 @@
 import Carousel from 'react-bootstrap/Carousel'
 import AnimatedPage from './AnimatedPage'
+import { CaretDown } from 'react-bootstrap-icons'
+import { motion } from 'framer-motion'
 
 function Projects() {
   return (
     // Projects introduction description
     <AnimatedPage>
       <div name='projects' className='project-container'>
-        <h2 className='text-center pt-5'>Projects.</h2>
-        <p className='text-center p-4 mx-auto project-description'>
-          Below are a few projects in my portfolio that showcase a variety of my
-          different development skills. You can see more projects like these by
-          visiting my Github page at the link in the footer!
-        </p>
+        <div className='project-main'>
+          <h2 className='p-4 mx-auto'>Projects.</h2>
+        </div>
+        <motion.a
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 0.4 },
+          }}
+          whileTap={{ scale: 0.9 }}
+          href='#project-location'
+          className='arrow-down justify-content-center'
+        >
+          <CaretDown size={45} />
+        </motion.a>
 
         {/* Projects carousel with react bootstrap formatting - can be referenced here https://react-bootstrap.github.io/components/carousel/ */}
-        <Carousel>
+        <Carousel id='project-location'>
           {/* Ferran Client Project */}
           <Carousel.Item>
             <a

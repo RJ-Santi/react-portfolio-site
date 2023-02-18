@@ -105,6 +105,13 @@ p {
     font-size: 12px !important;
   }
 }
+.arrow-down {
+  display: flex;
+  color: white;
+}
+.arrow-down:hover {
+  color: #ced0d5;
+}
 
 /* change color on hover for links */
 .hoverColor:hover {
@@ -281,6 +288,13 @@ nav {
 /* Project Section Styles */
 .project-container {
   background-color: var(--tertiaryColor);
+}
+
+.project-main {
+  display: flex;
+  align-items: center;
+  height: 85vh;
+  text-align: center;
 }
 
 .project-description {

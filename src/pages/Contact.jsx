@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import AnimatedPage from './AnimatedPage'
 
 function Contact() {
   // Point reference toward DOM element of form
@@ -42,7 +43,7 @@ function Contact() {
   }
 
   return (
-    <>
+    <AnimatedPage>
       <div id='contact' className='contact-me p-5 row'>
         <div className='col-md-6 text-center align-self-center'>
           <h2>Get In Touch.</h2>
@@ -108,7 +109,7 @@ function Contact() {
           </form>
         </div>
       </div>
-    </>
+    </AnimatedPage>
   )
 }
 
