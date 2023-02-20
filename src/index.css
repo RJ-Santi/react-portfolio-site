@@ -210,13 +210,11 @@ nav {
   align-items: center;
 }
 
-/* TODO need to center my image on home page */
-
 /* is this even necessary */
-.img-center {
+/* .img-center {
   display: flex;
   justify-content: center;
-}
+} */
 
 .profile-picture {
   max-height: 500px;
@@ -293,8 +291,14 @@ nav {
 .project-main {
   display: flex;
   align-items: center;
-  height: 85vh;
+  height: 80vh;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .project-main {
+    height: 70vh;
+  }
 }
 
 .project-description {
@@ -344,6 +348,12 @@ nav {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .overlay-text {
+    display: none;
+  }
 }
 
 /* Contact Section Styles */

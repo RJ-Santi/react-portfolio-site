@@ -6,7 +6,7 @@ function About() {
       {/* Section for passions descriptions */}
       <div className='passions-container py-5'>
         <div className='passions'>
-          <h2 className='text-center'>Passions.</h2>
+          <h1 className='text-center'>Passions.</h1>
           <div className='passion-row'>
             <img
               className='coding-gif'
@@ -41,7 +41,7 @@ function About() {
 
       {/* Sections for skills/languages logos */}
       <div className='skills-container py-5 text-center'>
-        <h2 className='text-center pb-4'>Skills.</h2>
+        <h1 className='text-center pb-4'>Skills.</h1>
 
         <div className='skills row'>
           <div className='col-md-3'>

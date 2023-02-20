@@ -9,7 +9,7 @@ function Projects() {
     <AnimatedPage>
       <div name='projects' className='project-container'>
         <div className='project-main'>
-          <h2 className='p-4 mx-auto'>Projects.</h2>
+          <h1 className='p-4 mx-auto'>Projects.</h1>
         </div>
         <motion.a
           whileHover={{
@@ -20,7 +20,7 @@ function Projects() {
           href='#project-location'
           className='arrow-down justify-content-center'
         >
-          <CaretDown size={45} />
+          <CaretDown size={50} className='mb-5' />
         </motion.a>
 
         {/* Projects carousel with react bootstrap formatting - can be referenced here https://react-bootstrap.github.io/components/carousel/ */}
