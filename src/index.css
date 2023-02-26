@@ -8,13 +8,6 @@ html * {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body,
-html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
 svg {
   width: 4%;
   height: 4%;
@@ -52,11 +45,15 @@ svg {
   }
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Merriweather', serif;
   text-align: center;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -152,9 +149,9 @@ nav {
 /* Footer Styles */
 .footer-container {
   background-color: var(--tertiaryColor);
-  position: relative;
   text-align: center;
   padding: 1.5rem;
+  overflow: hidden;
 }
 
 .footer-link:hover {
@@ -210,11 +207,10 @@ nav {
   align-items: center;
 }
 
-/* is this even necessary */
-/* .img-center {
+.img-center {
   display: flex;
   justify-content: center;
-} */
+}
 
 .profile-picture {
   max-height: 500px;
@@ -359,6 +355,7 @@ nav {
 /* Contact Section Styles */
 .contact-me {
   background-color: var(--tertiaryColor);
+  height: 80vh;
 }
 
 #contact-form {

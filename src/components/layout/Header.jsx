@@ -1,4 +1,4 @@
-import { ReactComponent as RyanLogo } from './ryan-logo.svg'
+import { ReactComponent as RyanLogo } from '../../images/ryan-logo.svg'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'

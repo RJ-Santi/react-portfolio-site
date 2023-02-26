@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import AnimatedPage from './AnimatedPage'
 import { CaretDown } from 'react-bootstrap-icons'
 import { motion } from 'framer-motion'
-import Project from '../components/layout/Project'
+import { Project } from '../components'
 import {
   Ferran,
   Secure,

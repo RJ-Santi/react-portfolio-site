@@ -44,7 +44,7 @@ function Contact() {
 
   return (
     <AnimatedPage>
-      <div id='contact' className='contact-me p-5 row'>
+      <div id='contact' className='contact-me row'>
         <div className='col-md-6 text-center align-self-center'>
           <h2>Get In Touch.</h2>
           <h3>If you love tech as much as I do.</h3>
@@ -59,7 +59,7 @@ function Contact() {
         </div>
 
         {/* User input section for email form */}
-        <div className='col-md-6 py-5'>
+        <div className='col-md-6 align-self-center'>
           <form ref={form} onSubmit={sendEmail} id='contact-form'>
             <label>Name</label>
             <input
