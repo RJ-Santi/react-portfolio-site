@@ -1,0 +1,7 @@
+export { default as Ferran } from '../images/ferranchizze-films.png'
+export { default as Secure } from '../images/secure-storage.png'
+export { default as RealEstate } from '../images/real-estate.png'
+export { default as Store } from '../images/ecommerce-home.png'
+export { default as ToDo } from '../images/tododark.jpg'
+export { default as GhFinder } from '../images/ghfinder.png'
+export { default as FeedbackSite } from '../images/feedback-ui.png'

@@ -1,6 +1,6 @@
 import AnimatedPage from './AnimatedPage'
 import { Parallax } from 'react-parallax'
-import Fuji from './images/fuji.jpg'
+import Fuji from '../images/fuji.jpg'
 
 function Home() {
   return (
