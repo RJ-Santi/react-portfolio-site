@@ -1,4 +1,16 @@
 import AnimatedPage from './AnimatedPage'
+import { Row } from 'react-bootstrap'
+import { Skill } from '../components'
+import {
+  Bootstrap,
+  CSS,
+  HTML,
+  JavaScript,
+  GitHub,
+  Node,
+  Express,
+  React,
+} from './index'
 
 function About() {
   return (
@@ -43,40 +55,16 @@ function About() {
       <div className='skills-container py-5 text-center'>
         <h1 className='text-center pb-4'>Skills.</h1>
 
-        <div className='skills row'>
-          <div className='col-md-3'>
-            <img className='logo' src='images/html.png' alt='HTML logo.' />
-          </div>
-          <div className='col-md-3'>
-            <img className='logo' src='images/css.png' alt='CSS logo.' />
-          </div>
-          <div className='col-md-3'>
-            <img className='logo' src='images/js.png' alt='JS logo.' />
-          </div>
-          <div className='col-md-3'>
-            <img
-              className='bootstrap-logo'
-              src='images/bootstrap.png'
-              alt='Bootstrap 5 logo.'
-            />
-          </div>
-          <div className='col-md-3'>
-            <img className='logo' src='images/github.png' alt='Github logo.' />
-          </div>
-          <div className='col-md-3'>
-            <img className='logo' src='images/node.png' alt='NodeJS logo.' />
-          </div>
-          <div className='col-md-3'>
-            <img
-              className='logo'
-              src='images/express.png'
-              alt='ExpressJS logo.'
-            />
-          </div>
-          <div className='col-md-3'>
-            <img className='logo' src='images/react.png' alt='React logo.' />
-          </div>
-        </div>
+        <Row xs={1} md={2} lg={4}>
+          <Skill imgUrl={HTML} imgAlt='HTML Logo' />
+          <Skill imgUrl={CSS} imgAlt='CSS Logo' />
+          <Skill imgUrl={JavaScript} imgAlt='JavaScript Logo' />
+          <Skill imgUrl={Bootstrap} imgAlt='Bootstrap Logo' />
+          <Skill imgUrl={GitHub} imgAlt='GitHub Logo' />
+          <Skill imgUrl={Node} imgAlt='Node.js Logo' />
+          <Skill imgUrl={Express} imgAlt='Express.js Logo' />
+          <Skill imgUrl={React} imgAlt='React Logo' />
+        </Row>
       </div>
     </AnimatedPage>
   )

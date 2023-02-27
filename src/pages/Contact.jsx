@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import { Row, Col } from 'react-bootstrap'
 import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
@@ -44,8 +45,8 @@ function Contact() {
 
   return (
     <AnimatedPage>
-      <div id='contact' className='contact-me row'>
-        <div className='col-md-6 text-center align-self-center'>
+      <Row id='contact' className='contact-me p-5' sm={1} md={2}>
+        <Col className='text-center align-self-center'>
           <h2>Get In Touch.</h2>
           <h3>If you love tech as much as I do.</h3>
           <p className='mx-auto mt-5 w-50'>
@@ -56,10 +57,10 @@ function Contact() {
             Just fill out the contact form and I'll be sure to get in touch with
             you as soon as possible!
           </p>
-        </div>
+        </Col>
 
         {/* User input section for email form */}
-        <div className='col-md-6 align-self-center'>
+        <Col className='align-self-center'>
           <form ref={form} onSubmit={sendEmail} id='contact-form'>
             <label>Name</label>
             <input
@@ -107,8 +108,8 @@ function Contact() {
               />
             </div>
           </form>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </AnimatedPage>
   )
 }
