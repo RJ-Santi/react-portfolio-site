@@ -1,5 +1,6 @@
 import AnimatedPage from './AnimatedPage'
 import { Parallax } from 'react-parallax'
+import { Row, Col } from 'react-bootstrap'
 import Fuji from '../images/fuji.jpg'
 
 function Home() {
@@ -15,16 +16,22 @@ function Home() {
 
       {/* Description about myself */}
       <div className='about-section container-fluid'>
-        <div id='about-me' className='about-me m-5 mx-auto row'>
-          <div className='col-md-6 img-center'>
+        <Row
+          id='about-me'
+          className='about-me m-5 mx-auto'
+          xs={1}
+          sm={1}
+          md={2}
+        >
+          <Col className='align-self-center text-center'>
             <img
               className='profile-picture'
               src='images/profilepicture.jpg'
               alt='Profile'
             />
-          </div>
-          <div className='col-md-6'>
-            <h2 className='helloTitle mt-4'>Hello.</h2>
+          </Col>
+          <Col className='text-center align-self-center'>
+            <h2 className='mt-4'>Hello.</h2>
             <p className='hello'>
               My name is Ryan Santiago. I am a college graduate from the
               University of Central Florida pursuing a career in web
@@ -39,8 +46,8 @@ function Home() {
               preferences and a functional contact form that will send an email
               directly to me using EmailJS.
             </p>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </AnimatedPage>
   )

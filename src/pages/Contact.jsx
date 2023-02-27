@@ -60,7 +60,7 @@ function Contact() {
         </Col>
 
         {/* User input section for email form */}
-        <Col className='align-self-center'>
+        <Col className='align-self-center text-center'>
           <form ref={form} onSubmit={sendEmail} id='contact-form'>
             <label>Name</label>
             <input
