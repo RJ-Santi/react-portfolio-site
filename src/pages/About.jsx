@@ -27,9 +27,9 @@ function About() {
             />
             <h3>Web Development</h3>
             <p>
-              I started learning how to code 5 years ago because I had a
+              I started learning how to code 5 years ago because of my
               fascination with the functionality behind websites. Throughout my
-              time learning how to code I have found a passion in creating my
+              journey coding I have found a passion in creating my
               own websites, as well as enhancing others' existing sites.
             </p>
           </div>
