@@ -267,6 +267,7 @@ nav {
 .logo {
   max-width: 175px;
   height: auto;
+  filter: drop-shadow(0 0 1.5rem #222222);
 }
 
 .bootstrap-logo {
